@@ -1,3 +1,21 @@
+//My adds
+// Or is this better?  The User is prompted "Enter the number of characters for your password. The minimum is 8 and maximum is 128. "   
+function charLength() {
+  var charLength = prompt("Enter the number of characters for your password. The minimum is 8 and maximum is 128.");
+  if (charLength < 8 > 128) {alert("Your character choice is incorrect - it is either not a number or it was <8 or >128. Click OK to re-enter")}
+// Should console log the answer"         
+  console.log("Your character choice is incorrect - it is either not a number or it was <8 or >128. Click OK to re-enter")
+
+
+
+
+
+
+
+
+
+
+
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
@@ -12,3 +30,16 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+
+
+
+
+
+
+
+
+
+
+
+
