@@ -7,18 +7,11 @@
     <title>Password Generator</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-
-
-
-
   <body>
-
-
     <div class="wrapper">
       <header>
         <h1>Password Generator</h1>
       </header>
-
       <div class="card">
         <div class="card-header">
           <h2>Generate a Password</h2>
@@ -37,89 +30,5 @@
       </div>
     </div>
     <script src="script.js"></script>
-
-  <script>
-// Do I need to shift the src java file to the bottom of the html file just above </body> and then add in <script> like I have above and close that after all the java I create???? 
-
-
- // Do I need to create the variables to store the construct of the password????  
-    var charLength = prompt("Enter the number of characters for your password. The minimum is 8 and maximum is 128.");
-    var lowCase = confirm("Include lower case letters?");
-    var upperCase = confirm("Include upper case letters?");
-    var specCase = confirm("Include special characters?");
-    var number = confirm("Include numbers?");
-
-// START
-// The User is prompted "Enter the number of characters for your password. The minimum is 8 and maximum is 128."
-    var charLength = prompt("Enter the number of characters for your password. The minimum is 8 and maximum is 128.");
-      console.log(number)
-
-
-// Create function called numberChecker to check the users entry is a number from 8 to 128, not text and that it is not <8 or >128...
-  function numberChecker(charLength) {
-    if (charLength < 8..then do what? || charLength >128..then do what? || charLength =text...then what?) {
-// If it is a text entry or a number <8 or >128... it will display and log.
-      alert("Your character choice is incorrect - it is either not a number or it was <8 or >128. Click OK to re-enter")
-        console.log("Your character choice is incorrect - it is either not a number or it was <8 or >128. Click OK to re-enter");}
-// If not... it will log that.
-    else {
-        console.log("the user choice was correct as a number and within range of 8 to 128");}
-
-
-        
-// Or is this better?  The User is prompted "Enter the number of characters for your password. The minimum is 8 and maximum is 128. "   
-  function charLength() {
-      var charLength = prompt("Enter the number of characters for your password. The minimum is 8 and maximum is 128.");
-      if (charLength < 8 > 128) {alert("Your character choice is incorrect - it is either not a number or it was <8 or >128. Click OK to re-enter")
-      else }
-// Should console log the answer"         
-      console.log("Your character choice is incorrect - it is either not a number or it was <8 or >128. Click OK to re-enter")
-
-// or is this an option?
-// If the user entry is a string or out of number range.
-      if (typeof x === "string" or <8 or >128) {
-        alert("Your character choice is incorrect - it is either not a number or it was <8 or >128. Click OK to re-enter");
-        console.log("Your character choice is incorrect - it is either not a number or it was <8 or >128. Click OK to re-enter");
-
-// If NOT a string or <8 or >128..., that is that the entry is correct, it will note that.
-      else {
-        console.log("No... I don't believe these are strings.");
-      }
-    }
-  }
-
-    
-// If its incorrect it has to loop back to the character length prompt again, keeps looping until correct answer is entered
-
-// If its correct it goes to the next step of confirming the characters
-
-// Using confirm for each of the questions below re the characters to be used as it needs a yes (true) or no (false) reponse to each one from the user
-    var lowCase = confirm("Include lower case letters?");
-    var upperCase = confirm("Include upper case letters?");
-    var specCase = confirm("Include special characters?");
-    var number = confirm("Include numbers?");
-
-// Once these are answered I need to put these results into the passwordConstruct (make up of the Password)
-// The Object for passwordConstruct......I think this thing below is wrong
-    var passwordConstruct = ["charLength", "lowCase", "upperCase", "specCase", "number"];
-    
-// Should the Object be this ....for passwordConstruct ....???
-    let passwordConstruct = {
-      charLength: "the result of prompt goes in here - and it wont be in quotation as its a number???",
-      lowCase: "the result of confirm goes in here???",
-      upperCase: "the result of confirm goes in here???",
-      specCase: "the result of confirm goes in here???",
-      number: "the result of confirm goes in here???",
-    }
-
-// The the password generator can generate the password and display on the page and also log to console
-// Not sure how to get that to work using the java script file with the specific functions provided?
-  
-  </script>
-
-
-
-
   </body>
-
 </html>
